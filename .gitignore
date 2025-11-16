@@ -1,0 +1,36 @@
+# ---- Virtual Environment ----
+env/
+venv/
+ENV/
+*.pyc
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Environment variables / secrets ----
+.env
+*.env
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Python packaging ----
+*.egg-info/
+dist/
+build/
+
+# ---- mypy / pyright / coverage ----
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
